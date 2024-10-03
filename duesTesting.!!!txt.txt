@@ -1,0 +1,120 @@
+create multiple listing:
+NM518L200527734
+NM518L200527735
+
+mog calls sequence that creates one new listing from RC:
+NM518L200527733
+
+NM518L200508711
+-----------------create listing property and pricing -----------
+110 call -----------
+<?xml version='1.0' encoding='UTF-8'?>
+<listing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <listing_identifier>
+    <id_name>call_id</id_name>
+    <id_value>1218629</id_value>
+  </listing_identifier>
+  <exit_listing_number></exit_listing_number>
+  <commission_rule_id xsi:nil="true" />
+  <franchise_id>2175</franchise_id>
+  <admin_id xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+  <address>2205 Solar Way</address>
+  <city>Las Cruces</city>
+  <state_province_id>NM</state_province_id>
+  <country_id>USA</country_id>
+  <zip_postal>88001</zip_postal>
+  <property_type/>
+  <legal_description/>
+  <mls_id>
+    <org_id>nmsnmmls</org_id>
+    <number>2001266</number>
+  </mls_id>
+  <initial_price>130000.00</initial_price>
+  <listing_date xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+  <listing_expiry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+  <listing_type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+  <listing_status_id>Incomplete</listing_status_id>
+  <current_price>130000.00</current_price>
+  <gross_flat_fee xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+  <gross_flat_buyer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+  <geo_lat>32.30317300</geo_lat>
+  <geo_lon>-106.74949500</geo_lon>
+</listing>
+--------------create listing seller ---------
+300 call ---------------
+<?xml version='1.0' encoding='UTF-8'?><person xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <person_identifier>
+    <id_name>call_id</id_name>
+    <id_value>1218630</id_value>
+  </person_identifier>
+  <company_name/>
+  <person_name/>
+  <courtesy_title_id xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+  <first_name/>
+  <middle_name/>
+  <last_name/>
+  <address/>
+  <city/>
+  <state_province_id>NM</state_province_id>
+  <country_id>USA</country_id>
+  <zip_postal>00000</zip_postal>
+  <phone_home/>
+  <phone_cell/>
+  <phone_fax/>
+  <phone_work1/>
+  <phone_work2/>
+  <sin_ssn/>
+  <attorney_id xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+  <franchise_id>2175</franchise_id>
+  <email/>
+  <email_work/>
+  <url/>
+  <lead_source/>
+</person>
+----------------
+-------call 130 attach seller to property
+<?xml version='1.0' encoding='UTF-8'?><listing_client xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <listing_identifier>
+    <id_name>call_id</id_name>
+    <id_value>1218629</id_value>
+  </listing_identifier>
+  <person_identifier>
+    <id_name>call_id</id_name>
+    <id_value>1218630</id_value>
+  </person_identifier>
+</listing_client>
+------------- create listing agent  -----------
+-------------call 120 -------------
+<?xml version='1.0' encoding='UTF-8'?>
+<listing_agents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <listing_identifier>
+    <id_name>call_id</id_name>
+    <id_value>1218656</id_value>
+  </listing_identifier>
+  <listing_agent>
+    <listing_agent_identifier>
+      <id_name>listing_agent_id</id_name>
+      <id_value></id_value>
+    </listing_agent_identifier>
+    <listing_agent_type>1</listing_agent_type>
+    <franchise_id>2175</franchise_id>
+    <associate_id>104041</associate_id>
+    <sharing_percentage/>
+    <flat_fee>0</flat_fee>
+  </listing_agent>
+</listing_agents>
+
+
+ecollectDues
+Collect$123
+
+NM518L200508712
+
+4520951475312333
+
+1000208886
+
+104406, Prorated	1001455250, nj655, may 25
+
+1001462377 1st installment
+1001455249 1st installment
